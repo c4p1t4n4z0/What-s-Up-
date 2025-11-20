@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "MindfulConnect",
+    "slug": "mindfulconnect",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#6B73FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mindfulconnect.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#6B73FF"
+      },
+      "package": "com.mindfulconnect.app",
+      "targetSdkVersion": 34,
+      "compileSdkVersion": 34,
+      "minSdkVersion": 21
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+

@@ -1,0 +1,96 @@
+🚀 MINDFULCONNECT - PROYECTO EN EJECUCIÓN
+
+═══════════════════════════════════════════════════════════════
+
+✅ BACKEND (Flask + Gemini AI)
+   Estado: ACTIVO Y FUNCIONANDO
+   URL: http://localhost:5000
+   Health Check: http://localhost:5000/health
+   Puerto: 5000
+   
+   Endpoints disponibles:
+   - POST /api/chat - Chat con MindfulConnect
+   - POST /api/session/new - Crear nueva sesión
+   - POST /api/session/<id>/clear - Limpiar sesión
+   - GET /health - Estado del servidor
+
+   ⚠️ IMPORTANTE: Añade tu API Key de Gemini en backend/.env
+   Obtén tu API Key en: https://makersuite.google.com/app/apikey
+
+═══════════════════════════════════════════════════════════════
+
+✅ FRONTEND (React Native / Expo SDK 54)
+   Estado: ACTIVO Y FUNCIONANDO
+   Versión: Expo SDK 54.0.0
+   React Native: 0.81.0
+   React: 19.1.0
+   
+   Configuración Android:
+   - targetSdkVersion: 34
+   - compileSdkVersion: 34
+   - minSdkVersion: 21
+   
+   IP Local configurada: 192.168.14.34:5000
+   
+   Puertos Expo:
+   - 19000 (Metro Bundler)
+   - 19001 (DevTools)
+   - 19002 (WebSocket)
+
+═══════════════════════════════════════════════════════════════
+
+📱 CÓMO USAR LA APLICACIÓN:
+
+1. Abre la terminal donde se ejecutó 'npm start' en mobile/
+   (Deberías ver un código QR y opciones de conexión)
+
+2. Opciones para conectar:
+   a) Escanea el código QR con Expo Go en tu smartphone
+      - Android: https://play.google.com/store/apps/details?id=host.exp.exponent
+      - iOS: https://apps.apple.com/app/expo-go/id982107779
+   
+   b) Presiona teclas en la terminal:
+      - 'a' = Abrir en emulador Android
+      - 'i' = Abrir en simulador iOS  
+      - 'w' = Abrir en navegador web
+
+3. Asegúrate de que:
+   - Tu smartphone esté en la misma red WiFi
+   - Expo Go esté instalado
+   - El backend esté corriendo (ya está ✅)
+
+═══════════════════════════════════════════════════════════════
+
+🔧 COMANDOS ÚTILES:
+
+Ver logs del backend:
+  cd backend && tail -f (revisa la terminal donde corre)
+
+Ver logs del frontend:
+  Revisa la terminal donde ejecutaste 'npm start'
+
+Detener servicios:
+  Backend: Ctrl+C en la terminal de Flask
+  Frontend: Ctrl+C en la terminal de Expo
+
+Reiniciar backend:
+  cd backend
+  source venv/bin/activate
+  python app.py
+
+Reiniciar frontend:
+  cd mobile
+  npm start
+
+═══════════════════════════════════════════════════════════════
+
+📝 NOTAS:
+
+- El backend está funcionando correctamente
+- El frontend está configurado para SDK 54 (compatible con tu smartphone)
+- La conexión entre frontend y backend está configurada
+- Solo falta añadir la API Key de Gemini para que el chat funcione completamente
+
+═══════════════════════════════════════════════════════════════
+
+✨ ¡Todo listo! Ambos servicios están corriendo correctamente.

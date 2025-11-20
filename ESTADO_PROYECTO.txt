@@ -1,0 +1,38 @@
+🚀 PROYECTO MINDFULCONNECT - ESTADO ACTUAL
+
+✅ BACKEND (Flask):
+   - Servidor corriendo en: http://localhost:5000
+   - Estado: ACTIVO
+   - Health check: http://localhost:5000/health
+   
+⚠️ IMPORTANTE: Necesitas añadir tu API Key de Gemini en:
+   backend/.env
+   
+   Obtén tu API Key en: https://makersuite.google.com/app/apikey
+
+✅ FRONTEND (React Native / Expo):
+   - Servidor Expo iniciado
+   - IP local configurada: 192.168.14.34:5000
+   - Estado: ACTIVO
+
+📱 PARA USAR LA APLICACIÓN:
+
+1. Instala Expo Go en tu dispositivo móvil:
+   - Android: https://play.google.com/store/apps/details?id=host.exp.exponent
+   - iOS: https://apps.apple.com/app/expo-go/id982107779
+
+2. Escanea el código QR que aparece en la terminal donde ejecutaste 'npm start'
+
+3. O presiona:
+   - 'a' para abrir en emulador Android
+   - 'i' para abrir en simulador iOS
+   - 'w' para abrir en navegador web
+
+🔧 COMANDOS ÚTILES:
+
+- Ver logs del backend: Revisa la terminal donde se ejecutó 'python app.py'
+- Ver logs del frontend: Revisa la terminal donde se ejecutó 'npm start'
+- Detener servicios: Ctrl+C en las terminales respectivas
+
+📝 NOTA: El backend necesita una API Key válida de Gemini para funcionar completamente.
+   Sin ella, las respuestas del chat no funcionarán, pero la app se conectará correctamente.
