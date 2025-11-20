@@ -6,7 +6,7 @@ import axios from 'axios';
 // - Linux/Mac: ejecuta 'ifconfig' o 'ip addr' y busca 'inet'
 // - Windows: ejecuta 'ipconfig' y busca 'IPv4 Address'
 const API_BASE_URL = __DEV__ 
-  ? 'http://192.168.14.34:5000'  // IP local configurada automáticamente
+  ? 'http://192.168.14.34:5002'  // IP local configurada - Puerto 5002 (donde está corriendo el backend)
   : 'https://tu-servidor.com';  // Para producción
 
 const api = axios.create({

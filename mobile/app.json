@@ -12,6 +12,14 @@
       "resizeMode": "contain",
       "backgroundColor": "#6B73FF"
     },
+    "plugins": [
+      [
+        "expo-asset",
+        {
+          "assets": ["./assets"]
+        }
+      ]
+    ],
     "assetBundlePatterns": [
       "**/*"
     ],
